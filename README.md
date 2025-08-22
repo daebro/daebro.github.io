@@ -16,7 +16,7 @@ Write description
 
 ## 📂 Projects
 
-### 🏆 [Project Title 1](link-to-repo)
+### 🏆 [Causal and Statistical Exploration of Primary Elections](link-to-repo)
 **Description**: Brief summary (1–2 lines).  
 **Tools Used**: Python, Scikit-learn, etc.  
 **Highlights**: Your model achieved 92% accuracy, or created an interactive dashboard, etc.
