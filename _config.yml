@@ -1,1 +1,3 @@
-
+title: My Awesome Site
+description: A description of my site.
+theme: jekyll-theme-minimal # Or remote_theme: username/repo-name
