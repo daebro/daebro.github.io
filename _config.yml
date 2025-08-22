@@ -1,3 +1,5 @@
-title: My Awesome Site
-description: A description of my site.
-remote_theme: pages-themes/cayman@v0.2.0 # Or remote_theme: username/repo-name
+title: Daeyoun's Data Portfolio
+description: Showcasing my data science and machine learning projects.
+theme: jekyll-theme-cayman
+url: "https://daebro.github.io"
+github_username: daebro
