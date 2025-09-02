@@ -26,4 +26,55 @@ The project combines **statistical hypothesis testing** with **causal inference 
 
 4. **RQ2: Causal Inference**
    - Framed endorsements as a treatment variable
-   - Used **Inverse Propensity Weighting (IPW)**
+   - Used **Inverse Propensity Weighting (IPW)** with logistic regression to estimate causal effect
+   - Trimmed propensity scores to address positivity violations
+   - Constructed **95% bootstrapped confidence intervals** for robustness
+
+---
+
+## 📂 Datasets
+- **FiveThirtyEight’s 2022 Primary Project**: Candidate demographics, election results, endorsements  
+- **Endorsement Data**: Additional information on endorsers (e.g., EMILY’s List, Bernie Sanders, Donald Trump)  
+- Each row corresponds to one congressional primary candidate, with attributes like party, gender, race, incumbency, endorsements, and primary vote percentage.
+
+---
+
+## 🧮 Models and Methods
+- **Hypothesis Testing**: Two-sample t-tests, chi-squared tests, ANOVA  
+- **Multiple Testing Adjustments**: Bonferroni & Benjamini-Hochberg corrections  
+- **Causal Model**: Inverse Propensity Weighting (IPW) with logistic regression  
+- **Validation**: Bootstrapped confidence intervals, overlap diagnostics on propensity scores
+
+---
+
+## 📈 Key Results
+- **RQ1 (Associations):**
+  - Endorsements, incumbency, race, and party affiliation all showed **statistically significant effects** on vote share.  
+  - Bernie Sanders’ endorsements had especially strong positive association.  
+  - Gender and EMILY’s List endorsements were not statistically significant.  
+
+- **RQ2 (Causal Effect of Endorsements):**
+  - Naive Average Treatment Effect (ATE): **+38.2 percentage points**  
+  - After adjusting for confounders with IPW: **+25.05 percentage points**  
+  - 95% CI: **[14.88, 36.47]**, confirming a significant positive causal effect.  
+
+---
+
+## 🏆 My Contributions
+- Co-led **RQ1 analysis**: designed hypothesis tests, applied multiple testing corrections, ran statistical power analysis.  
+- Assisted with **data preprocessing & feature engineering** (one-hot encoding, handling missing endorsements).  
+- Collaborated on **RQ2 workflow**, including propensity score modeling and validation with overlap/weight diagnostics.  
+- Consolidated results into final report and visualizations.  
+
+---
+
+## 📌 Next Steps
+- Explore **heterogeneous treatment effects** of specific high-profile endorsements (e.g., Trump vs. PACs).  
+- Incorporate **campaign finance and polling data** as additional confounders.  
+- Extend causal framework to **general election outcomes** across multiple years.  
+
+---
+
+## 📓 Notebooks
+- [RQ1 Analysis](./primary_elections_RQ1.ipynb)  
+- [RQ2 Analysis](./primary_elections_RQ2.ipynb)  
