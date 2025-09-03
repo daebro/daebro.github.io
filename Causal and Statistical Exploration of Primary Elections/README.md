@@ -1,6 +1,6 @@
 # A Causal and Statistical Exploration of the 2022 Primary Election
 
-## 📌 Project Overview
+##� Project Overview
 This project explores how candidate characteristics and endorsements affected outcomes in the 2022 U.S. primary elections.  
 We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)** to answer two core questions:
 
@@ -9,7 +9,7 @@ We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)
 
 ---
 
-## 📊 Workflow Summary
+## Workflow Summary
 1. **Data Cleaning & Feature Engineering**  
    - Converted vote share values into numeric percentages  
    - Encoded endorsements into binary variables  
@@ -31,14 +31,14 @@ We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Source: [FiveThirtyEight – Primary Project 2022](https://github.com/fivethirtyeight/data/tree/master/primary-project-2022)  
 - Granularity: candidate-level (each row = one candidate)  
 - Key variables: demographics, endorsements, vote share  
 
 ---
 
-## 🔎 Results
+## Results
 
 ### RQ1 (Statistical Testing)
 - **Significant traits:** incumbency, party affiliation, race, and Sanders endorsement  
@@ -55,7 +55,7 @@ We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)
 ---
 
 
-## ⚙️ Reproducibility
+##  Reproducibility
 To run the notebook:
 
 ```bash
