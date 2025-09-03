@@ -16,7 +16,7 @@ Write description
 
 ## 📂 Projects
 
-### 🏆 [Causal and Statistical Exploration of Primary Elections](link-to-repo)
+### 🏆 [Causal and Statistical Exploration of Primary Elections](https://github.com/daebro/daebro.github.io/tree/main/Causal%20and%20Statistical%20Exploration%20of%20Primary%20Elections)
 **Description**: Brief summary (1–2 lines).  
 **Tools Used**: Python, Scikit-learn, etc.  
 **Highlights**: Your model achieved 92% accuracy, or created an interactive dashboard, etc.
