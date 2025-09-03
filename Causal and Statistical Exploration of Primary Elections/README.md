@@ -1,6 +1,6 @@
 # A Causal and Statistical Exploration of the 2022 Primary Election
 
-##� Project Overview
+## Project Overview
 This project explores how candidate characteristics and endorsements affected outcomes in the 2022 U.S. primary elections.  
 We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)** to answer two core questions:
 
