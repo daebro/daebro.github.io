@@ -59,7 +59,7 @@ We combine **statistical hypothesis testing (RQ1)** and **causal inference (RQ2)
 To run the notebook:
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo>
+git clone https://github.com/daebro/election-analysis.git
+cd election-analysis
 pip install -r requirements.txt
-jupyter notebook notebooks/election_analysis-2.ipynb
+jupyter notebook notebooks/Data_Analysis_Primary_Elections.ipynb
