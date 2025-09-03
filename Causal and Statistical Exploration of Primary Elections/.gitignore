@@ -1,0 +1,28 @@
+# Ignore Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+*.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore raw data files (too large for GitHub)
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Ignore figures generated during analysis (optional if you export plots manually)
+# Uncomment the next line if you don’t want auto-saved plots
+# figures/
